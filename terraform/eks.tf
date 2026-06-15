@@ -37,7 +37,7 @@ module "eks" {
   source  = "terraform-aws-modules/eks/aws"        # Official EKS Terraform module
   version = "~> 21.0"                              # Module version constraint
 
-  name               = "terraform-cluster"         # EKS cluster name
+  name               = "test-terraform-cluster"         # EKS cluster name
   kubernetes_version = "1.34"                     # Kubernetes version for cluster
 
   # EKS ADDONS (Core Kubernetes components)

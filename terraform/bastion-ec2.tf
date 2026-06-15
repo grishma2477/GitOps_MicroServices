@@ -50,7 +50,7 @@ module "bastion_host" {
   source  = "terraform-aws-modules/ec2-instance/aws"  # EC2 module source
 
   name          = "bastion-host"                      # EC2 instance name
-  ami           = data.aws_ami.ubuntu.id              # Ubuntu AMI ID
+  ami           = data.aws_ami.ubuntu.id              # Ubuntu AMI ID fetched using data sources  
   instance_type = "t3.micro"                          # Small instance type
   key_name      = aws_key_pair.bastion_keypair.key_name # SSH key pair name
   monitoring    = true                                # Enable detailed monitoring
