@@ -6,14 +6,14 @@ terraform {
     }
   }
   
-  backend "s3" {
-    bucket = "sulav-terraform-backend-bucket"
-    key    = "s3-backend"
-    region = "us-east-1"
+ backend "s3" {
+    bucket = "grishma-terraform-backend-bucket"
+    key    = "terraform.tfstate"
+    region = "ap-southeast-2"
   }
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-southeast-2"
 }
 
