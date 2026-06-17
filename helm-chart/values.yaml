@@ -18,38 +18,38 @@
     
 images:
   adservice:
-    repository: ghcr.io/sulav02/adservice
+    repository: ghcr.io/grishma2477/ms/adservice
     # Overrides the image tag whose default is the chart appVersion.
     tag: v1.0.0
   cartservice:
-    repository: ghcr.io/sulav02/cartservice
+    repository: ghcr.io/grishma2477/ms/cartservice
     tag: v1.0.0
   checkoutservice:
-    repository: ghcr.io/sulav02/checkoutservice
+    repository: ghcr.io/grishma2477/ms/checkoutservice
     tag: v1.0.0
   currencyservice:
-    repository: ghcr.io/sulav02/currencyservice
+    repository: ghcr.io/grishma2477/ms/currencyservice
     tag: v1.0.0
   emailservice:
-    repository: ghcr.io/sulav02/emailservice
+    repository: ghcr.io/grishma2477/ms/emailservice
     tag: v1.0.0
   frontend:
-    repository: ghcr.io/sulav02/frontend
+    repository: ghcr.io/grishma2477/ms/frontend
     tag: v1.0.0
   loadgenerator:
-    repository: ghcr.io/sulav02/loadgenerator
+    repository: ghcr.io/grishma2477/ms/loadgenerator
     tag: v1.0.0
   paymentservice:
-    repository: ghcr.io/sulav02/paymentservice
+    repository: ghcr.io/grishma2477/ms/paymentservice
     tag: v1.0.0
   productcatalogservice:
-    repository: ghcr.io/sulav02/productcatalogservice
+    repository: ghcr.io/grishma2477/ms/productcatalogservice
     tag: v1.0.0
   recommendationservice:
-    repository: ghcr.io/sulav02/recommendationservice
+    repository: ghcr.io/grishma2477/ms/recommendationservice
     tag: v1.0.0
   shippingservice:
-    repository: ghcr.io/sulav02/shippingservice
+    repository: ghcr.io/grishma2477/ms/shippingservice
     tag: v1.0.0
 
 serviceAccounts:

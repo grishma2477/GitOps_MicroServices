@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/sulav02/GitOps_MicroServices.git
+    repoURL: https://github.com/grishma2477/GitOps_MicroServices.git
     targetRevision: master
     path: .
 
