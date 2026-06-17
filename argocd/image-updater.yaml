@@ -13,35 +13,35 @@ spec:
 
       images:
         - alias: adservice
-          imageName: ghcr.io/sulav02/adservice
+          imageName: ghcr.io/grishma2477/ms/adservice
 
         - alias: cartservice
-          imageName: ghcr.io/sulav02/cartservice
+          imageName: ghcr.io/grishma2477/ms/cartservice
 
         - alias: checkoutservice
-          imageName: ghcr.io/sulav02/checkoutservice
+          imageName: ghcr.io/grishma2477/ms/checkoutservice
 
         - alias: currencyservice
-          imageName: ghcr.io/sulav02/currencyservice
+          imageName: ghcr.io/grishma2477/ms/currencyservice
 
         - alias: emailservice
-          imageName: ghcr.io/sulav02/emailservice
+          imageName: ghcr.io/grishma2477/ms/emailservice
 
         - alias: frontend
-          imageName: ghcr.io/sulav02/frontend
+          imageName: ghcr.io/grishma2477/ms/frontend
 
         - alias: paymentservice
-          imageName: ghcr.io/sulav02/paymentservice
+          imageName: ghcr.io/grishma2477/ms/paymentservice
 
         - alias: productcatalogservice
-          imageName: ghcr.io/sulav02/productcatalogservice
+          imageName: ghcr.io/grishma2477/ms/productcatalogservice
 
         - alias: recommendationservice
-          imageName: ghcr.io/sulav02/recommendationservice
+          imageName: ghcr.io/grishma2477/ms/recommendationservice
 
         - alias: shippingservice
-          imageName: ghcr.io/sulav02/shippingservice
+          imageName: ghcr.io/grishma2477/ms/shippingservice
 
         - alias: loadgenerator
-          imageName: ghcr.io/sulav02/loadgenerator
+          imageName: ghcr.io/grishma2477/ms/loadgenerator
 
